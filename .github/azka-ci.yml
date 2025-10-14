@@ -51,4 +51,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notify success
-        run: echo "✅ Deployment completed successfully for ${{ github.ref }}"
+        run: echo " Deployment completed successfully for ${{ github.ref }}"
